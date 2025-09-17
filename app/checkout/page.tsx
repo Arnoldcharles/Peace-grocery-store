@@ -35,9 +35,7 @@ export default function CheckoutPage() {
           console.log(response);
           if (response.status === "successful") {
             clearCart();
-            window.location.href = `/success?name=${encodeURIComponent(
-              customer.name
-            )}&amount=${total.toFixed(2)}`;
+            window.location.href = "/success";
           } else {
             window.location.href = "/failed";
           }
