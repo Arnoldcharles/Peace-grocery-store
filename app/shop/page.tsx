@@ -76,7 +76,7 @@ export default function ShopPage() {
           <input
             type="range"
             min="1"
-            max="10000"
+            max="1000000"
             value={maxPrice}
             onChange={(e) => setMaxPrice(Number(e.target.value))}
             className="w-full"
@@ -180,7 +180,7 @@ export default function ShopPage() {
               <input
                 type="range"
                 min="1"
-                max="10000"
+                max="1000000"
                 value={maxPrice}
                 onChange={(e) => setMaxPrice(Number(e.target.value))}
                 className="w-full"
