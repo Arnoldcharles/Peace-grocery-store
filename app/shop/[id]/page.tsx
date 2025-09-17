@@ -109,7 +109,7 @@ export default function ProductDetails() {
                     className="rounded-lg object-cover w-full h-40"
                   />
                   <h3 className="mt-3 text-lg font-semibold">{rel.name}</h3>
-                  <p className="text-green-600 font-bold">${rel.price}</p>
+                  <p className="text-green-600 font-bold">₦{rel.price}</p>
                 </Link>
                 <button
                   onClick={() =>

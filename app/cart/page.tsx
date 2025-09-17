@@ -46,7 +46,7 @@ export default function CartPage() {
                 <div className="flex-1">
                   <h3 className="text-lg font-semibold">{item.name}</h3>
                   <p className="text-green-600 font-bold">
-                    ${item.price.toFixed(2)}
+                    ₦{item.price.toFixed(2)}
                   </p>
 
                   {/* Quantity Controls */}

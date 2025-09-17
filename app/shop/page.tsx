@@ -76,7 +76,7 @@ export default function ShopPage() {
           <input
             type="range"
             min="1"
-            max="100"
+            max="10000"
             value={maxPrice}
             onChange={(e) => setMaxPrice(Number(e.target.value))}
             className="w-full"
@@ -114,7 +114,7 @@ export default function ShopPage() {
                     </p>
                     <div className="mt-auto">
                       <p className="text-green-600 font-bold mb-3">
-                        ${product.price.toFixed(2)}
+                        ₦{product.price.toFixed(2)}
                       </p>
                       <div className="flex gap-2">
                         {/*<button className="flex-1 bg-green-600 text-white py-2 rounded hover:bg-green-700 transition">
@@ -180,7 +180,7 @@ export default function ShopPage() {
               <input
                 type="range"
                 min="1"
-                max="100"
+                max="10000"
                 value={maxPrice}
                 onChange={(e) => setMaxPrice(Number(e.target.value))}
                 className="w-full"
