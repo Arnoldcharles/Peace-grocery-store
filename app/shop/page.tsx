@@ -87,7 +87,7 @@ export default function ShopPage() {
         {/* Product Grid */}
         <div className="flex-1">
           {filteredProducts.length === 0 ? (
-            <p className="text-gray-500">No products found.</p>
+            <p className="text-gray-500">No products found. <br/> Increase price range or change category in the filter option</p>
           ) : (
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
               {filteredProducts.map((product) => (
