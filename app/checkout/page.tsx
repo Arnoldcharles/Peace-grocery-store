@@ -35,7 +35,7 @@ export default function CheckoutPage() {
           console.log(response);
           if (response.status === "successful") {
             clearCart();
-            window.location.href = "/success";
+            window.location.href = "/";
           } else {
             window.location.href = "/failed";
           }
